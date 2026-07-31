@@ -34,15 +34,15 @@ $$(".nav-links a").forEach((link) => {
 
 const heroScreens = {
   dashboard: {
-    src: "assets/salon-dashboard.png",
-    alt: "Salon Pro overview dashboard"
+    src: "assets/salon-latest-today.png",
+    alt: "Salon Pro Today workspace"
   },
   appointments: {
-    src: "assets/salon-appointments.png",
+    src: "assets/salon-latest-appointments.png",
     alt: "Salon Pro appointments workspace"
   },
   reports: {
-    src: "assets/salon-reports.png",
+    src: "assets/salon-latest-reports.png",
     alt: "Salon Pro reports and analytics"
   }
 };
