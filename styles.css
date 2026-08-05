@@ -1249,7 +1249,7 @@ h1, h2, h3 {
   .product-number { top: 20px; right: 20px; font-size: 2rem; }
 .product-copy h3 { font-size: 2.25rem; }
   .feature-list li { grid-template-columns: 84px 1fr; }
-  .product-actions { align-items: flex-start; flex-direction: column; gap: 15px; }
+  .product-actions { align-items: center; flex-direction: row; flex-wrap: wrap; gap: 14px 18px; }
   .product-visual, .gym-feature .product-visual { padding: 18px; }
   .product-art { padding: 10px 10px 34px; border-radius: 16px; }
   .art-heading { height: 50px; }
