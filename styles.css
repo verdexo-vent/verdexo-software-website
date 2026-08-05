@@ -148,9 +148,16 @@ h1, h2, h3 {
 }
 .product-actions .text-button { margin-top: 0; }
 .product-actions .text-button,
-.product-actions .quiet-button { white-space: nowrap; line-height: 1.2; }
+.product-actions .quiet-button {
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  line-height: 1.2;
+}
+.product-actions .text-button { display: inline-flex; align-items: center; min-height: 40px; }
 .quiet-button {
-  padding: 0;
+  padding: 8px 0;
   border: 0;
   border-bottom: 1px solid rgba(20,20,20,.28);
   background: transparent;
