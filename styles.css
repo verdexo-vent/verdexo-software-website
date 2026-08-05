@@ -360,8 +360,8 @@ h1, h2, h3 {
   width: 100%;
   max-width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: top left;
+  object-fit: contain;
+  object-position: center;
   transform: none;
   transition: opacity .22s ease-out, transform .4s var(--ease);
 }
@@ -811,8 +811,8 @@ h1, h2, h3 {
   width: 100%;
   height: 100%;
   max-width: 100%;
-  object-fit: cover;
-  object-position: top left;
+  object-fit: contain;
+  object-position: center;
   transform: none;
 }
 .art-chip {
