@@ -115,14 +115,14 @@ $("#demo-form")?.addEventListener("submit", (event) => {
   event.preventDefault();
   const form = new FormData(event.currentTarget);
   const name = String(form.get("name") || "").trim();
-  const phone = String(form.get("phone") || "").trim();
+  const email = String(form.get("email") || "").trim();
   const interest = String(form.get("interest") || "").trim();
   const message = [
     `Hi Verdexo, I am ${name}.`,
     `I would like a live demo for ${interest}.`,
-    `My WhatsApp number is ${phone}.`
+    `My email address is ${email}.`
   ].join(" ");
-  window.open(`https://wa.me/919830092595?text=${encodeURIComponent(message)}`, "_blank", "noopener");
+  window.location.href = `mailto:software@verdexoventures.com?subject=${encodeURIComponent(`Demo request — ${interest}`)}&body=${encodeURIComponent(message)}`;
   closeModal();
   event.currentTarget.reset();
 });
